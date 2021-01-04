@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vera Reid — Résumé</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+  	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="https://i.ibb.co/2vQQkYp/Favicon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+
+
+
+<!-- PAGE BORDER -->
+
+<div id="bl"></div>
+<div id="br"></div>
+<div id="bt"></div>
+<div id="bb"></div>
+
+
+
+<!-- CONTAINERS -->
+
+<div class="border">
+<div class="repeat">
+<div class="repeat">
+<div class="repeat">
+<div class="repeat">
+<div class="repeat">
+<div class="repeat">
+<div class="repeat">
+
+
+
+<!-- ABOUT -->
+
+<div class="about">
+	<div class="spacer1">
+		<a href="xedni.html"><h1>◆</h1></a>
+	</div>
+	<div class="spacer2">
+		<h2>VERA REID</h2></div>
+	<div class="spacer3">
+		<p><b>Welcome to my résumé.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor purus non enim praesent elementum facilisis leo vel. Porta lorem mollis aliquam ut porttitor leo a. Risus commodo maecenas accumsan lacus vel facilisis volutpat. Amet commodo nulla facilisi nullam vehicula. Tortor pretium viverra suspendisse purus potenti nullam nostrud exercitation mollis. ⠀</p>
+	</div>
+</div>
+<div class="divider"></div>
+
+
+
+<!-- EDUCATION -->
+
+<div class="topclose">
+	<button class="accordion">EDUCATION</button>
+	<div class="panel">
+	<div class="text">
+	<div class="education">
+		<ul>
+		<font size="2">
+			<li><b>PROGRAM⠀//⠀INSTITUTION⠀//⠀20XX — 20XX</li></b>
+			<li><b>PROGRAM⠀//⠀INSTITUTION⠀//⠀20XX — 20XX</li></b>
+		</font>
+		</ul>
+	</div>
+	</div>
+	</div>
+</div>
+
+
+
+<!-- SKILLS -->
+
+<button class="accordion">SKILLS</button>
+	<div class="panel">
+	<div class="text">
+	<div class="skills">	<div class="applyfont">
+		<p><b>HARD SKILLS</b></p></div>
+			<ul>
+				<li>This is the first hard skill</li>
+				<li>This is the second hard skill</li>
+				<li>This is the third hard skill</li>
+				<li>This is the fourth hard skill</li>
+				<li>This is the fifth hard skill</li>
+			</ul>
+	</div>
+	<div class="skills2">
+		<p><b>SOFT SKILLS</b></p>
+			<ul>
+				<li>This is the first soft skill</li>
+				<li>This is the second soft skill</li>
+				<li>This is the third soft skill</li>
+				<li>This is the fourth soft skill</li>
+				<li>This is the fifth soft skill</li>
+			</ul>
+	</div>
+	</div>
+	</div>
+
+
+
+<!-- EXPERIENCE -->
+
+<button class="accordion">EXPERIENCE</button>
+	<div class="panel">
+	<div class="text">
+	<div class="experience">
+		<p><b>POSITION⠀//⠀COMPANY⠀//⠀20XX — PRESENT</b></p>
+			<ul>
+				<li>This is the first task or accomplishment</li>
+				<li>This is the second task or accomplishment</li>
+				<li>This is the third task or accomplishment</li>
+				<li>This is the fourth task or accomplishment</li>
+				<li>This is the fifth task or accomplishment</li>
+			</ul>
+	</div>
+	<div class="experience">
+		<p><b>POSITION⠀//⠀COMPANY⠀//⠀20XX — 20XX</b></p>
+			<ul>
+				<li>This is the first task or accomplishment</li>
+				<li>This is the second task or accomplishment</li>
+				<li>This is the third task or accomplishment</li>
+				<li>This is the fourth task or accomplishment</li>
+				<li>This is the fifth task or accomplishment</li>
+			</ul>
+	</div>
+	<div class="experience2">
+		<p><b>POSITION⠀//⠀COMPANY⠀//⠀20XX — 20XX</b></p>
+			<ul>
+			<li>This is the first task or accomplishment</li>
+			<li>This is the second task or accomplishment</li>
+			<li>This is the third task or accomplishment</li>
+			<li>This is the fourth task or accomplishment</li>
+			<li>This is the fifth task or accomplishment</li>
+			</ul>			
+	</div>
+	</div>
+</div>
+
+
+
+<!-- CONTACT -->
+
+<button class="accordion">CONTACT</button>
+<div class="panel">
+	<div class="contact"> 
+		<input type="text" id="name" placeholder="NAME">
+		<input type="text" id="email" placeholder="EMAIL">
+		<input type="text" id="subject" placeholder="SUBJECT">
+		<textarea rows="4" cols="50" id="message" placeholder="MESSAGE"></textarea>
+		<input type="button" value="SEND">
+	</div>
+</div>
+
+
+
+<!-- PORTFOLIO -->
+
+<a href="https://www.behance.net/verareid" target="_blank" button class="button">PORTFOLIO</button></a>
+</div>
+</div>
+
+
+
+<!-- ACCORDION SCRIPT -->
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var panel = this.nextElementSibling;
+	    if (panel.style.maxHeight) {
+	      panel.style.maxHeight = null;
+	    } else {
+	      panel.style.maxHeight = panel.scrollHeight + "px";
+	    } 
+	  });
+	}
+</script>
+</div>
+</div>
+</body>
+</html>
